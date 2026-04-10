@@ -1,6 +1,31 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 /* Above is the Font Awesome CSS to display the Pause and Play buttons! */
 
+.logo{
+  margin-right: 50px;
+}
+.navbar{
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+
+.navbar > a {
+  text-decoration: none;
+  color: blue;
+  border: 2px solid red;
+  
+}
+
+
+
+
+
+
+
+
+
+
 /* ===== AUTOPLAY ===== */
 .buttondiv {
   cursor: pointer;
@@ -25,6 +50,7 @@
   bottom: 5px;
   width: 35px;
   left: 5px;
+  border-radius: 50px;
 }
 
 .autoplayer a {
@@ -38,4 +64,5 @@
   z-index: 1;
   left: 50px;
   color: white;
+  border-radius: 50px;
 }
