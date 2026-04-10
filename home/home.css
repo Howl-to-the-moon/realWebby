@@ -8,6 +8,7 @@
   display: flex;
   gap: 20px;
   font-size: 1.5rem;
+  border: 2px solid green;
 }
 
 .navbar > a {
@@ -19,8 +20,28 @@
 
 
 
+.groups{
+  margin: 0px 200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-content: center;
+  gap: 20px;
+}
 
+.groups > div{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: black 2px solid;
+}
 
+.groups > div > div {
+  border: purple solid 2px;
+  width: 400px;
+  height: 200px;
+}
 
 
 
